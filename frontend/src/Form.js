@@ -87,7 +87,7 @@ const Form = () => {
                     <input onChange={change} type='checkbox' name='ToS' checked={form.ToS} />
                 </label>
 
-                <button disabled={disabled}>Submit</button>
+                <button disabled={disabled} type='submit'>Submit</button>
 
             </form>
 
